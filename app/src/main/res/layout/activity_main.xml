@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TripleDES168"
+        android:id="@+id/button"
+        android:onClick="encDecDESede"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/button3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AES128"
+        android:id="@+id/button3"
+        android:onClick="encDecAES128"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AES256"
+        android:id="@+id/button4"
+        android:onClick="encDecAES256"
+        android:layout_below="@+id/button"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RC4-128"
+        android:id="@+id/button2"
+        android:onClick="encDecRC4"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ARC4-128"
+        android:id="@+id/button5"
+        android:onClick="encDecARC4"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MD5"
+        android:id="@+id/button6"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:onClick="MD5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHA-1"
+        android:id="@+id/button7"
+        android:onClick="SHA1"
+        android:layout_alignTop="@+id/button6"
+        android:layout_alignEnd="@+id/button9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RSA.SHA1-1024"
+        android:id="@+id/button8"
+        android:layout_marginTop="27dp"
+        android:nestedScrollingEnabled="false"
+        android:onClick="signVerifySHA1RSA1024"
+        android:layout_below="@+id/button6"
+        android:layout_alignStart="@+id/button6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RSA.SHA1-2048"
+        android:id="@+id/button9"
+        android:onClick="signVerifySHA1RSA2048"
+        android:layout_above="@+id/button10"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RSA.SHA256-1024"
+        android:id="@+id/button10"
+        android:layout_below="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:layout_marginTop="27dp"
+        android:onClick="signVerifySHA256RSA1024" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RSA.SHA256.2048"
+        android:id="@+id/button11"
+        android:layout_alignTop="@+id/button10"
+        android:layout_alignEnd="@+id/button9"
+        android:onClick="signVerifySHA256RSA2048" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supported Algorithms"
+        android:id="@+id/button12"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignEnd="@+id/button4"
+        android:onClick="supportedAlgorithms" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ECprime192v1"
+        android:id="@+id/button13"
+        android:layout_below="@+id/button10"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:onClick="signVerifyECprime192v1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ECPRIMEprime239v1"
+        android:id="@+id/button14"
+        android:layout_alignBottom="@+id/button13"
+        android:layout_alignEnd="@+id/button11"
+        android:onClick="signVerifyECprime239v1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ECPRIMEprime256v1"
+        android:id="@+id/button15"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="signVerifyECprime256v1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ECsecp192k1"
+        android:id="@+id/button16"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/button14"
+        android:onClick="signVerifyECsecp192k1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RSA"
+        android:id="@+id/button17"
+        android:layout_above="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:onClick="signVerifyRSA" />
+</RelativeLayout>

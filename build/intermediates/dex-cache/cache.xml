@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Lubo\AndroidStudioProjects\CryptoSpeedApp\app\libs\prov-1.51.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6755081df770180856ca48694b40cd34c2208128">
+        <dex dex="C:\Users\Lubo\AndroidStudioProjects\CryptoSpeedApp\app\build\intermediates\pre-dexed\debug\prov-1.51.0.0-42a5311e08185a8977f8368616c0681f07e87a45.jar" />
+    </item>
+    <item
+        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Lubo\AndroidStudioProjects\CryptoSpeedApp\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-704a340b9af7bcb3c02ad95d5aa67056e7d6206d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lubo\AndroidStudioProjects\CryptoSpeedApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Lubo\AndroidStudioProjects\CryptoSpeedApp\app\build\intermediates\pre-dexed\debug\classes-e1e31f97386bb1ab82c897ba78edd27a9232b25e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lubo\AndroidStudioProjects\CryptoSpeedApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Lubo\AndroidStudioProjects\CryptoSpeedApp\app\build\intermediates\pre-dexed\debug\classes-26c689f0ed7eaa5c1284a4216a951cc08188eabc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lubo\AndroidStudioProjects\CryptoSpeedApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Lubo\AndroidStudioProjects\CryptoSpeedApp\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-ae36acb8c5ac160ee71f14fa3d95fa8836099b66.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lubo\AndroidStudioProjects\CryptoSpeedApp\app\libs\core-1.51.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0f642963312ea0e615ad65f28adc5a5b3a2a0862">
+        <dex dex="C:\Users\Lubo\AndroidStudioProjects\CryptoSpeedApp\app\build\intermediates\pre-dexed\debug\core-1.51.0.0-130fcb59cd6c7feae0022c64f566191e5b514015.jar" />
+    </item>
+
+</items>
