@@ -35,7 +35,7 @@ public class MainActivity extends ActionBarActivity {
         Security.addProvider(new BouncyCastleProvider());
     }
 
-    @Override
+  @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -69,8 +69,9 @@ public class MainActivity extends ActionBarActivity {
 
     public void encDecRC4(View W) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException, InvalidAlgorithmParameterException
     {
-        SymmetricStreamCipher RC4 = new SymmetricStreamCipher("RC4", "RC4", 128, getApplicationContext());
-        RC4.startSymmetricCipherTest();
+        // obsolete function and implementation, will be deleted soon
+        //SymmetricStreamCipher RC4 = new SymmetricStreamCipher("RC4", "RC4", 128, getApplicationContext());
+        //RC4.startSymmetricCipherTest();
     }
 
     public void encDecARC4(View w)

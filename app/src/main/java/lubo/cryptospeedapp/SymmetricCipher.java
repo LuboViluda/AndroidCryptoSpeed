@@ -89,7 +89,8 @@ public abstract class SymmetricCipher
         double sumEncryption, sumDecryption;
         sumDecryption = sumEncryption = 0;
         // buffer for log written into device sd card
-        StringBuilder buffer = new StringBuilder();
+        StringBuilder bufferEncryption = new StringBuilder();
+        StringBuilder bufferDecryption = new StringBuilder();
         String cipherName = this.getKeyName() + "-" + this.getKeySize();
 
         CommonAuxiliaryCode.generateDummyBytes(b1);
@@ -113,7 +114,9 @@ public abstract class SymmetricCipher
                 decTime[i] =  (((double) endDecryption/ 1000000.0) - ((double) startDecryption)/ 1000000.0);
                 sumDecryption += decTime[i];
                 Log.i(CommonAuxiliaryCode.TAG, cipherName + " attempt : " + i + " ended successful time enc: " + encTime[i] + " dec : " + decTime[i]);
-                buffer.append(encTime[i] + "," + decTime[i] + "\n");
+                // builds CSV buffers
+                bufferDecryption.append(encTime[i] + ",");
+                bufferEncryption.append(decTime[i] + ",");
                 b3[0] = 0;
             }
             else
@@ -124,10 +127,13 @@ public abstract class SymmetricCipher
         }
         double encR =  sumEncryption / ((double) CommonAuxiliaryCode.REPETITION);
         double decR =  sumDecryption / ((double) CommonAuxiliaryCode.REPETITION);
-        buffer.append("Test " + cipherName + " by provider: " + this.getCipher().getProvider() + " ended succesfully");
-        buffer.append("\n Averange values: " + encR + "," + decR);
+        Log.i(CommonAuxiliaryCode.TAG, "Test " + cipherName + " by provider: " + this.getCipher().getProvider() + " ended succesfully");
+        Log.i(CommonAuxiliaryCode.TAG ,"Average values: " + encR + "," + decR);
         Toast.makeText(appContex, "ENC time: " + encR + " DEC time: " + decR, Toast.LENGTH_SHORT).show();
-        CommonAuxiliaryCode.writeToFile(cipherName + "." + CommonAuxiliaryCode.SIZE + "x" + CommonAuxiliaryCode.REPETITION  +".txt", buffer.toString());
+        CommonAuxiliaryCode.writeToFile(cipherName + "." + "D" + "." + CommonAuxiliaryCode.SIZE + "x" + CommonAuxiliaryCode.REPETITION  +".csv",
+                                        bufferDecryption.toString());
+        CommonAuxiliaryCode.writeToFile(cipherName + "." + "E" + "." + CommonAuxiliaryCode.SIZE + "x" + CommonAuxiliaryCode.REPETITION  +".csv",
+                                        bufferEncryption.toString());
     }
 
     public byte[] encrypt(byte[] input)

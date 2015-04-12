@@ -28,7 +28,8 @@ public class Signature {
         double[] verifyTime = new double[SIG_REPETITION];
         double sumSign = 0;
         double sumVerify = 0;
-        StringBuilder buffer = new StringBuilder();
+        StringBuilder bufferSign = new StringBuilder();
+        StringBuilder bufferVerify = new StringBuilder();
         CommonAuxiliaryCode.generateDummyBytes(b1);
 
         for(int i =0; i < SIG_REPETITION; i++)
@@ -54,7 +55,8 @@ public class Signature {
                     verifyTime[i] =  (((double) endVerify / 1000000.0) - ((double) startVerify)/ 1000000.0);
                     sumVerify += verifyTime[i];
                     Log.i(CommonAuxiliaryCode.TAG, sig.getAlgorithm() + " attempt : " + i + " ended successful time sign: " + signTime[i] + " verify : " + verifyTime[i]);
-                    buffer.append(signTime[i] + "," + verifyTime[i] + "\n");
+                    bufferSign.append(signTime[i] + ",");
+                    bufferVerify.append(verifyTime[i] + ",");
                 }
                 else
                 {   // shoudn't happen, skipp test
@@ -68,9 +70,12 @@ public class Signature {
         }
         double encR =  sumSign / ((double) SIG_REPETITION);
         double decR =  sumVerify / ((double) SIG_REPETITION);
-        buffer.append("Test " + sig.getAlgorithm() + " by provider: " + sig.getProvider() + " ended succesfully");
-        buffer.append("\n Averange values: " + encR + "," + decR);
+        Log.i(CommonAuxiliaryCode.TAG, "Test " + sig.getAlgorithm() + " by provider: " + sig.getProvider() + " ended succesfully");
+        Log.i(CommonAuxiliaryCode.TAG, "Average values: " + encR + "," + decR);
         Toast.makeText(appContext, "SIGN time: " + encR + " VERIFY time: " + decR, Toast.LENGTH_SHORT).show();
-        CommonAuxiliaryCode.writeToFile(sig.getAlgorithm()+ "." + keySize + "." + SIG_SIZE + "x" + SIG_REPETITION  +".txt", buffer.toString());
+        CommonAuxiliaryCode.writeToFile(sig.getAlgorithm()+ ".S." + keySize + "." + SIG_SIZE + "x"
+                                        + SIG_REPETITION  +".csv", bufferSign.toString());
+        CommonAuxiliaryCode.writeToFile(sig.getAlgorithm()+ ".V." + keySize + "." + SIG_SIZE + "x"
+                                        + SIG_REPETITION  +".csv", bufferVerify.toString());
     }
 }

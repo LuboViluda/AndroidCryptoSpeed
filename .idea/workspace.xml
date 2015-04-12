@@ -52,33 +52,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44227642" vertical-offset="0" max-vertical-offset="1615">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding>
-                <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-                <element signature="initializer##0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#MD5#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#SHA1#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#encDecRC4#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#encDecARC4#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#encDecDESede#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#encDecAES128#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#encDecAES256#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#signVerifySHA1RSA1024#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#signVerifySHA1RSA2048#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#signVerifySHA256RSA1024#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#signVerifySHA256RSA2048#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#signVerifyECprime192v1#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#signVerifyECprime239v1#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#signVerifyECsecp192k1#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#signVerifyECprime256v1#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#supportedAlgorithms#0;class#MainActivity#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="2907">
+              <caret line="107" column="35" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,25 +65,19 @@
       <file leaf-file-name="SignatureRSA.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SignatureRSA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+            <state vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1564">
               <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#generateRSAkey#0;class#SignatureRSA#0" expanded="false" />
-                <element signature="method#test#0;class#SignatureRSA#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignatureEllipticCurves.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SignatureEllipticCurves.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SignatureEllipticCurves.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="833">
-              <caret line="40" column="96" selection-start-line="40" selection-start-column="96" selection-end-line="40" selection-end-column="96" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.63166666" vertical-offset="63" max-vertical-offset="663">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,12 +85,9 @@
       <file leaf-file-name="Signature.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/Signature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#testSignature#0;class#Signature#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="947" max-vertical-offset="1479">
+              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,11 +95,9 @@
       <file leaf-file-name="HashFunction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/HashFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="1003">
-              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="986">
+              <caret line="49" column="100" selection-start-line="49" selection-start-column="100" selection-end-line="49" selection-end-column="100" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,14 +105,9 @@
       <file leaf-file-name="SymmetricStreamCipher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SymmetricStreamCipher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="748">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#SymmetricStreamCipher#0;class#SymmetricStreamCipher#0" expanded="false" />
-                <element signature="method#initEncryption#0;class#SymmetricStreamCipher#0" expanded="false" />
-                <element signature="method#initDecryption#0;class#SymmetricStreamCipher#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,16 +115,9 @@
       <file leaf-file-name="SymmetricCipher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SymmetricCipher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1122">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#SymmetricCipher#0;class#SymmetricCipher#0" expanded="false" />
-                <element signature="method#startSymmetricCipherTest#0;class#SymmetricCipher#0" expanded="false" />
-                <element signature="method#encrypt#0;class#SymmetricCipher#0" expanded="false" />
-                <element signature="method#decrypt#0;class#SymmetricCipher#0" expanded="false" />
-                <element signature="method#generateKey#0;class#SymmetricCipher#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="3196">
+              <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,15 +125,9 @@
       <file leaf-file-name="CommonAuxiliaryCode.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/CommonAuxiliaryCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1343">
               <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#generateDummyBytes#0;class#CommonAuxiliaryCode#0" expanded="false" />
-                <element signature="method#cmpByteArrayShowResult#0;class#CommonAuxiliaryCode#0" expanded="false" />
-                <element signature="method#writeToFile#0;class#CommonAuxiliaryCode#0" expanded="false" />
-                <element signature="method#getPrivateKeyEntry#0;class#CommonAuxiliaryCode#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,28 +135,23 @@
       <file leaf-file-name="SymmetricBlockCipher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SymmetricBlockCipher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-              <caret line="38" column="0" selection-start-line="29" selection-start-column="115" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#SymmetricBlockCipher#0;class#SymmetricBlockCipher#0" expanded="false" />
-                <element signature="method#initEncryption#0;class#SymmetricBlockCipher#0" expanded="false" />
-                <element signature="method#initDecryption#0;class#SymmetricBlockCipher#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1122">
+              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2924">
               <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
               <folding />
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -775,13 +720,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SymmeticStreamCipher.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SymmetricStreamCipher.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SymmetricBlockCipher.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/CommonAuxiliaryCode.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SignatureRSA.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SymmetricCipher.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/HashFunction.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/Signature.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SignatureEllipticCurves.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/CommonAuxiliaryCode.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SignatureRSA.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SignatureEllipticCurves.java" />
       </list>
     </option>
   </component>
@@ -789,10 +734,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
+    <option name="x" value="54" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="916" />
+    <option name="width" value="1320" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -821,6 +766,44 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CryptoSpeedApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CryptoSpeedApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lubo.cryptospeedapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CryptoSpeedApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -979,126 +962,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CryptoSpeedApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CryptoSpeedApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CryptoSpeedApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CryptoSpeedApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CryptoSpeedApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cryptospeedapp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CryptoSpeedApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CryptoSpeedApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CryptoSpeedApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lubo.cryptospeedapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1338,13 +1201,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1357,16 +1219,17 @@
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27105263" sideWeight="0.50931233" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28421053" sideWeight="0.62249285" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20415473" sideWeight="0.83898306" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22301587" sideWeight="0.83898306" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.49068767" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1" sideWeight="0.5931232" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24605264" sideWeight="0.5931232" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.256447" sideWeight="0.15889831" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1428,8 +1291,14 @@
           <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/MainActivity.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="102" />
+      <option name="time" value="104" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1437,7 +1306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="306">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1445,7 +1313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="67575" max-vertical-offset="356949">
           <caret line="3975" column="34" selection-start-line="3975" selection-start-column="34" selection-end-line="3975" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1477,7 +1344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1485,7 +1351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1493,7 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1501,40 +1365,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="537" max-vertical-offset="3927">
           <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-          <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="initializer##0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#MD5#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#SHA1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecRC4#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecARC4#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecDESede#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecAES128#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecAES256#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA1RSA1024#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA1RSA2048#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA256RSA1024#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA256RSA2048#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime192v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime239v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECsecp192k1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime256v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#supportedAlgorithms#0;class#MainActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2142">
           <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -1549,7 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="67507" max-vertical-offset="356949">
           <caret line="3971" column="0" selection-start-line="3971" selection-start-column="0" selection-end-line="3971" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1557,40 +1399,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="489" max-vertical-offset="3808">
           <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="initializer##0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#MD5#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#SHA1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecRC4#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecARC4#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecDESede#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecAES128#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecAES256#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA1RSA1024#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA1RSA2048#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA256RSA1024#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA256RSA2048#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime192v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime239v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECsecp192k1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime256v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#supportedAlgorithms#0;class#MainActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1343">
           <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -1605,7 +1426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="67439" max-vertical-offset="356949">
           <caret line="3967" column="0" selection-start-line="3967" selection-start-column="0" selection-end-line="3967" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1613,40 +1433,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="3111">
           <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
-          <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="initializer##0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#MD5#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#SHA1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecRC4#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecARC4#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecDESede#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecAES128#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecAES256#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA1RSA1024#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA1RSA2048#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA256RSA1024#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA256RSA2048#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime192v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime239v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECsecp192k1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime256v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#supportedAlgorithms#0;class#MainActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1343">
           <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -1661,7 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="356949">
           <caret line="3967" column="0" selection-start-line="3967" selection-start-column="0" selection-end-line="3967" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1669,40 +1467,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2591" max-vertical-offset="3094">
           <caret line="108" column="16" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="16" />
-          <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="initializer##0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#MD5#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#SHA1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecRC4#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecARC4#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecDESede#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecAES128#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecAES256#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA1RSA1024#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA1RSA2048#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA256RSA1024#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA256RSA2048#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime192v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime239v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECsecp192k1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime256v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#supportedAlgorithms#0;class#MainActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="901">
           <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -1717,7 +1494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="356949">
           <caret line="3967" column="0" selection-start-line="3967" selection-start-column="0" selection-end-line="3967" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1725,40 +1501,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1089" max-vertical-offset="1972">
           <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="initializer##0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#MD5#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#SHA1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecRC4#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecARC4#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecDESede#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecAES128#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecAES256#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA1RSA1024#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA1RSA2048#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA256RSA1024#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA256RSA2048#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime192v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime239v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECsecp192k1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime256v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#supportedAlgorithms#0;class#MainActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
           <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -1773,7 +1528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="67439" max-vertical-offset="356949">
           <caret line="3967" column="0" selection-start-line="3967" selection-start-column="0" selection-end-line="3967" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1816,7 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="444">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1824,7 +1577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="444">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1832,7 +1584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="444">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1864,7 +1615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="65434" max-vertical-offset="347888">
           <caret line="3975" column="34" selection-start-line="3975" selection-start-column="34" selection-end-line="3975" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1872,103 +1622,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
           <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/HashFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="1003">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/CommonAuxiliaryCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
           <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#generateDummyBytes#0;class#CommonAuxiliaryCode#0" expanded="false" />
-            <element signature="method#cmpByteArrayShowResult#0;class#CommonAuxiliaryCode#0" expanded="false" />
-            <element signature="method#writeToFile#0;class#CommonAuxiliaryCode#0" expanded="false" />
-            <element signature="method#getPrivateKeyEntry#0;class#CommonAuxiliaryCode#0" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/HashFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="935">
+          <caret line="49" column="100" selection-start-line="49" selection-start-column="100" selection-end-line="49" selection-end-column="100" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/Signature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testSignature#0;class#Signature#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SignatureEllipticCurves.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="833">
-          <caret line="40" column="96" selection-start-line="40" selection-start-column="96" selection-end-line="40" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SignatureRSA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#generateRSAkey#0;class#SignatureRSA#0" expanded="false" />
-            <element signature="method#test#0;class#SignatureRSA#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SymmetricBlockCipher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <caret line="38" column="0" selection-start-line="29" selection-start-column="115" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#SymmetricBlockCipher#0;class#SymmetricBlockCipher#0" expanded="false" />
-            <element signature="method#initEncryption#0;class#SymmetricBlockCipher#0" expanded="false" />
-            <element signature="method#initDecryption#0;class#SymmetricBlockCipher#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SymmetricCipher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1122">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#SymmetricCipher#0;class#SymmetricCipher#0" expanded="false" />
-            <element signature="method#startSymmetricCipherTest#0;class#SymmetricCipher#0" expanded="false" />
-            <element signature="method#encrypt#0;class#SymmetricCipher#0" expanded="false" />
-            <element signature="method#decrypt#0;class#SymmetricCipher#0" expanded="false" />
-            <element signature="method#generateKey#0;class#SymmetricCipher#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="947" max-vertical-offset="1479">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1976,41 +1664,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#SymmetricStreamCipher#0;class#SymmetricStreamCipher#0" expanded="false" />
-            <element signature="method#initEncryption#0;class#SymmetricStreamCipher#0" expanded="false" />
-            <element signature="method#initDecryption#0;class#SymmetricStreamCipher#0" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SymmetricCipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="466" max-vertical-offset="2686">
+          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SymmetricBlockCipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="901">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SignatureRSA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44227642" vertical-offset="0" max-vertical-offset="1615">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
-            <element signature="initializer##0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#MD5#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#SHA1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecRC4#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecARC4#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecDESede#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecAES128#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#encDecAES256#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA1RSA1024#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA1RSA2048#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA256RSA1024#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifySHA256RSA2048#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime192v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime239v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECsecp192k1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#signVerifyECprime256v1#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#supportedAlgorithms#0;class#MainActivity#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="1126" max-vertical-offset="1853">
+          <caret line="107" column="35" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lubo/cryptospeedapp/SignatureEllipticCurves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63166666" vertical-offset="63" max-vertical-offset="663">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

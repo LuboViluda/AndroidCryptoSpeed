@@ -33,7 +33,7 @@ public class SignatureEllipticCurves extends Signature{
 
         java.security.Signature ec = null;
         try {
-            ec = java.security.Signature.getInstance("ECDSA");
+            ec = java.security.Signature.getInstance("SHA1withECDSA");
 
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();

@@ -39,15 +39,14 @@ public class HashFunction {
                 hashTime[i] = (((double) endHash / 1000000.0) - ((double) startHash) / 1000000.0);
                 hashSum += hashTime[i];
                 Log.i(CommonAuxiliaryCode.TAG, algorithmName + " attempt : " + i + " ended successful time : " + hashTime[i]);
-                buffer.append(hashTime[i]);
-                buffer.append(System.getProperty("line.separator"));
+                buffer.append(hashTime[i] + ",");
                 b2 = null;
             }
         }
         double hashAvr = hashSum / ((double) repetions);
         Log.i(CommonAuxiliaryCode.TAG, "Test " + algorithmName + " finished, avrg. time : " + hashAvr);
-        buffer.append("Test " + algorithmName + " by provider: " + md.getProvider() + "with file size: " +  + testFileSize + " bytes x times: " + repetions);
-        buffer.append(" ended succesfully\n Averange values: " + hashAvr);
-        CommonAuxiliaryCode.writeToFile(algorithmName + "." + testFileSize + "x" + repetions + ".txt", buffer.toString());
+        Log.i(CommonAuxiliaryCode.TAG, "Test " + algorithmName + " by provider: " + md.getProvider() + "with file size: " + testFileSize + " bytes x times: " + repetions);
+        Log.i(CommonAuxiliaryCode.TAG, "ended successfully Average values: " + hashAvr);
+        CommonAuxiliaryCode.writeToFile(algorithmName + "." + testFileSize + "x" + repetions + ".csv", buffer.toString());
     }
 }
