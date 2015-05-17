@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
 
     static{
         // add Spongy Castle provider
-        Security.addProvider(new BouncyCastleProvider());
+        //Security.addProvider(new BouncyCastleProvider());
     }
 
   @Override
@@ -64,14 +64,12 @@ public class MainActivity extends ActionBarActivity {
 
     public void SHA1(View W)
     {
-        HashFunction.testHash("SHA-1", CommonAuxiliaryCode.SIZE, CommonAuxiliaryCode.REPETITION);
+        HashFunction.testHash("SHA-1", 20480000, CommonAuxiliaryCode.REPETITION);
     }
 
-    public void encDecRC4(View W) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException, InvalidAlgorithmParameterException
+    public void SHA256(View W)
     {
-        // obsolete function and implementation, will be deleted soon
-        //SymmetricStreamCipher RC4 = new SymmetricStreamCipher("RC4", "RC4", 128, getApplicationContext());
-        //RC4.startSymmetricCipherTest();
+        HashFunction.testHash("SHA-256", CommonAuxiliaryCode.SIZE, CommonAuxiliaryCode.REPETITION);
     }
 
     public void encDecARC4(View w)
@@ -113,14 +111,8 @@ public class MainActivity extends ActionBarActivity {
         SignatureRSA.test("SHA256withRSA", 1024, getApplicationContext());
     }
 
-    public void signVerifyRSA(View W)
-    {
-        SignatureRSA.test("RSA", 1024, getApplicationContext());
-    }
-
     public void signVerifySHA256RSA2048(View W)
     {
-
         SignatureRSA.test("SHA256withRSA", 2048, getApplicationContext());
     }
 
@@ -129,20 +121,22 @@ public class MainActivity extends ActionBarActivity {
         SignatureEllipticCurves.testEC("prime192v1", getApplicationContext());
     }
 
-    public void signVerifyECprime239v1(View W)
-    {
-        SignatureEllipticCurves.testEC("c2pnb163v1", getApplicationContext());
-    }
-
-    public void signVerifyECsecp192k1(View W)
-    {
-        SignatureEllipticCurves.testEC("secp192k1", getApplicationContext());
-    }
-
     public void signVerifyECprime256v1(View W)
     {
         SignatureEllipticCurves.testEC("prime256v1", getApplicationContext());
     }
+
+    public void signVerifyECsec160r1(View W)
+    {
+        SignatureEllipticCurves.testEC("sec160r1", getApplicationContext());
+    }
+
+    public void signVerifyECsec224v1(View W)
+    {
+        SignatureEllipticCurves.testEC("sec224r1", getApplicationContext());
+    }
+
+
 
     public void supportedAlgorithms(View w)
     {

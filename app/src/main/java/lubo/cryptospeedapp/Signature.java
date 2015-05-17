@@ -14,8 +14,8 @@ import java.security.SignatureException;
  */
 public class Signature {
     // override standard common constant
-    static final int SIG_SIZE = 20;
-    static final int SIG_REPETITION = 50;
+    static final int SIG_SIZE = 1;
+    static final int SIG_REPETITION = 200;
 
     // if elliptic curves are used keysize == ""
     // else is size of RSA key

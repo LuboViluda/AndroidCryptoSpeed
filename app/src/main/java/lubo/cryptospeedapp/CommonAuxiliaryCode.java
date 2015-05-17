@@ -1,10 +1,15 @@
 package lubo.cryptospeedapp;
 
+import android.content.Context;
 import android.util.Log;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.security.KeyStore;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
@@ -18,7 +23,7 @@ import java.util.Random;
  */
 public class CommonAuxiliaryCode {
     // 10.24 MB, constant for symmetric ciphers to enc./denc.
-    static final int SIZE = 10240000;
+    static final int SIZE = 51200000;
     static final int REPETITION = 50;
     static final String TAG = "lubo.cryptospeedapp";
     static final String ALIAS = "testKey";
@@ -32,15 +37,7 @@ public class CommonAuxiliaryCode {
 
     public static boolean cmpByteArrayShowResult(byte[] array1, byte[] array2, String comparedAlg)
     {
-        if (Arrays.equals(array1, array2))
-        {
-            //Toast.makeText(getApplicationContext(), "Test " + comparedAlg +   " succeed", Toast.LENGTH_SHORT).show();
-            return true;
-        } else
-        {
-            //Toast.makeText(getApplicationContext(), "Test " + comparedAlg + " failed", Toast.LENGTH_SHORT).show();
-            return false;
-        }
+        return Arrays.equals(array1, array2);
     }
 
     public static void writeToFile(String filename, String data) {
@@ -57,6 +54,33 @@ public class CommonAuxiliaryCode {
         }
     }
 
+    public static String readFile(String filename, Context context)
+    {
+        try {
+            InputStream inputStream = context.openFileInput("filename");
+
+            if ( inputStream != null ) {
+                InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+                BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+                String receiveString = "";
+                StringBuilder stringBuilder = new StringBuilder();
+
+                while ( (receiveString = bufferedReader.readLine()) != null ) {
+                    stringBuilder.append(receiveString);
+                }
+
+                inputStream.close();
+                return stringBuilder.toString();
+            }
+        }
+        catch (FileNotFoundException e) {
+            Log.e(CommonAuxiliaryCode.TAG, "File not found: " + e.toString());
+        } catch (IOException e) {
+            Log.e(CommonAuxiliaryCode.TAG, "Can not read file: " + e.toString());
+        }
+        return null;
+    }
+
     public static KeyStore.PrivateKeyEntry getPrivateKeyEntry(String alias)  {
         try
         {
@@ -66,7 +90,7 @@ public class CommonAuxiliaryCode {
         }
         catch(KeyStoreException |IOException |CertificateException |NoSuchAlgorithmException |UnrecoverableEntryException ex)
         {
-            // print error
+            Log.e("Exception", "Read AndroidKey Store failed in function getPrivateKeyEntry(String)" + ex.toString());
         }
         return null;
     }
